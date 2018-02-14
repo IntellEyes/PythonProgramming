@@ -1,0 +1,7 @@
+
+3rajath
+2chandan 
+ 1 5 rajath 
+ 2 2 chandan 
+ 1 4 rajath 
+ 2 7 chandan
