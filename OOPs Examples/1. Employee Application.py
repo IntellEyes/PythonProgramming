@@ -49,6 +49,12 @@ class Employee():
     def raise_salary(self):
         self.salary = self.salary * self.raise_amount
         
+    @staticmethod
+    def is_workday(day):
+        if day.weekday() == 5 or day.weekday() == 6:
+            return False
+        return True
+        
 if __name__ == '__main__':
     emp1 = Employee("Rajath","Kumar",25,'M',12000)
     emp2 = Employee('Katrina','Kaif',35,'F',50000)
